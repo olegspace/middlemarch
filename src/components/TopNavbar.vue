@@ -6,11 +6,11 @@ const cart = useCart()
   <nav class="py-2 fixed-top">
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto">
-        <li class="nav-item"><router-link to="/" class="nav-link px-2 active" aria-current="page">Home</router-link></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2">About</a></li>
+        <li class="nav-item"><router-link to="/" class="nav-link px-2 active" aria-current="page">Главная</router-link></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Оссобенности</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Цены</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Часто задаваемые вопросы</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">О нас</a></li>
       </ul>
       <div class="flex-shrink-0 dropdown">
         <a href="#" class="d-block text-decoration-none" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false" style="margin-top:5px">
@@ -19,7 +19,7 @@ const cart = useCart()
         <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2" style="">
           <li><router-link class="dropdown-item" to="/sign-in/">Sign-in</router-link></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="/register/">Register</a></li>
+          <li><a class="dropdown-item" href="/register/">Регистр</a></li>
         </ul>
       </div>
       <div class="shopping-cart">
